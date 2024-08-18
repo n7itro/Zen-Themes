@@ -1,0 +1,34 @@
+
+/* Remove minimize window button */
+@media (-moz-bool-pref: "uc.my-preference.hide-minimize") {
+  .titlebar-min {
+    display: none;
+  }
+}
+
+/* Remove maximize window button */
+@media (-moz-bool-pref: "uc.my-preference.hide-maximize") {
+  .titlebar-max {
+    display: none;
+  }
+  .titlebar-restore {
+    display: none;
+  }
+}
+
+/* Remove close window button */
+@media (-moz-bool-pref: "uc.my-preference.hide-close") {
+  .titlebar-close {
+    display: none;
+  }
+}
+
+@media (-moz-mac-big-sur-theme: 1) {
+  .titlebar-buttonbox-container { 
+      display: none; 
+  }
+
+  .window-controls{
+    display: none;
+  }
+}
