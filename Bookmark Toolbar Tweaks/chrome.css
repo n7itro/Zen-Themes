@@ -27,6 +27,7 @@
     transform-origin: top;
     transition: transform 135ms linear 600ms;
     z-index: 1;
+  }
 }
 
 /* Expand the bookmarks toolbar by hovering */
