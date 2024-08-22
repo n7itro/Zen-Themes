@@ -1,0 +1,41 @@
+@media (-moz-bool-pref: "uc.sidebar.hide-expand") {
+  #zen-expand-sidebar-button {
+    display: none !important;
+  }
+}
+
+@media (-moz-bool-pref: "uc.sidebar.hide-history") {
+  #zen-history-button {
+    display: none !important;
+  }
+}
+
+@media (-moz-bool-pref: "uc.sidebar.hide-profile") {
+  #zen-profile-button {
+    display: none !important;
+  }
+}
+  
+@media (-moz-bool-pref: "uc.sidebar.hide-bookmark") {
+  #zen-bookmark-button {
+    display: none !important;
+  }
+}
+
+@media (-moz-bool-pref: "uc.sidebar.hide-preferences") {
+  #zen-preferences-button {
+    display: none !important;
+  }
+}
+
+@media (-moz-bool-pref: "uc.sidebar.hide-sidepanel") {
+  #zen-sidepanel-button {
+    display: none !important;
+  }
+}
+
+@media (-moz-bool-pref: "uc.sidebar.hide-alltabs") {
+  #alltabs-button {
+    display: none;
+  }
+}
