@@ -1,0 +1,41 @@
+@media (-moz-bool-pref: "uc.sidebar.hide-expand-compact") and (-moz-bool-pref: "zen.view.compact") {
+  #zen-expand-sidebar-button {
+    display: none !important;
+  }
+}
+
+@media (-moz-bool-pref: "uc.sidebar.hide-history-compact") and (-moz-bool-pref: "zen.view.compact") {
+  #zen-history-button {
+    display: none !important;
+  }
+}
+
+@media (-moz-bool-pref: "uc.sidebar.hide-profile-compact") and (-moz-bool-pref: "zen.view.compact") {
+  #zen-profile-button {
+    display: none !important;
+  }
+}
+  
+@media (-moz-bool-pref: "uc.sidebar.hide-bookmark-compact") and (-moz-bool-pref: "zen.view.compact") {
+  #zen-bookmark-button {
+    display: none !important;
+  }
+}
+
+@media (-moz-bool-pref: "uc.sidebar.hide-preferences-compact") and (-moz-bool-pref: "zen.view.compact") {
+  #zen-preferences-button {
+    display: none !important;
+  }
+}
+
+@media (-moz-bool-pref: "uc.sidebar.hide-sidepanel-compact") and (-moz-bool-pref: "zen.view.compact") {
+  #zen-sidepanel-button {
+    display: none !important;
+  }
+}
+
+@media (-moz-bool-pref: "uc.sidebar.hide-alltabs-compact") and (-moz-bool-pref: "zen.view.compact") {
+  #alltabs-button {
+    display: none;
+  }
+}
