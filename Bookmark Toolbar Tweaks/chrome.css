@@ -27,7 +27,7 @@
 }
 
 /* Hide bookmark labels */
-@media (-moz-bool-pref: "zen.bookmarks.hide-name") {
+@media (-moz-bool-pref: "uc.bookmarks.hide-name") {
   .toolbarbutton-text { 
     display: none !important; 
   }
