@@ -29,7 +29,7 @@
 @media (-moz-bool-pref: "uc.bookmarks.expand-on-search") or (-moz-bool-pref: "uc.bookmarks.expand-on-hover") {
   #PersonalToolbar:not([customizing]) {
     position: relative;
-    margin-bottom: -35px;
+    margin-bottom: -25px;
     transform: rotateX(90deg) !important;
     transform-origin: top;
     transition: transform 135ms linear !important;
@@ -42,6 +42,7 @@
   #zen-appcontent-navbar-container:hover {
     #PersonalToolbar {
       transform: rotateX(0deg) !important;
+      background-color: var(--zen-colors-tertiary) !important;
     }
   }
 }
