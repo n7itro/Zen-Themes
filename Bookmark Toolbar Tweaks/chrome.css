@@ -46,7 +46,7 @@
     margin-bottom: -35px;
     transform: rotateX(90deg) !important;
     transform-origin: top;
-    transition: transform 135ms linear !important;
+    transition: transform 135ms var(--animation-easing-function) !important;
     z-index: 1;
   }
 }
